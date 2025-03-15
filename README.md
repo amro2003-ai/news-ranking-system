@@ -24,7 +24,7 @@ This project analyzes financial news with the aim of improving the decision-maki
 
 
 ## Project Structure
-
+```bash
 ├── assets/                 
 │   └── ui.png                     # UI image file
 ├── config/
@@ -54,3 +54,4 @@ This project analyzes financial news with the aim of improving the decision-maki
 │       └── __init__.py            # Initialization for the ranking system module
 ├── main.py                       # Main application file
 └── requirements.txt              # List of required dependencies
+```
