@@ -25,8 +25,8 @@ This project analyzes financial news with the aim of improving the decision-maki
 
 ## Project Structure
 
-assets/
-    ui.png                     # UI image file
+assets/ \\
+    ui.png \\                     # UI image file
 config/
     config.yaml                # Configuration file
 data/
