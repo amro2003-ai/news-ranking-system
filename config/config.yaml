@@ -1,0 +1,19 @@
+# Configuration file for the Sentiment Analysis and Ranking System API
+
+model:
+  sentiment_model: "model/sentiment_model.h5"  # Path to the trained sentiment analysis model
+  tokenizer: "model/tokenizer.pkl"  # Path to the tokenizer file used for text preprocessing
+
+template:
+  template_html: "src/API/template/interface.html"  # Path to the HTML template used for API's web interface
+
+data:
+  news_csv: "data/news.csv"  # Path to the CSV file containing news data for ranking
+
+ranking:
+  top_n: 5  # Number of top-ranked news articles to return in the response
+  score_threshold: 0.5  # Confidence threshold for classifying a sentiment as positive
+
+api:
+  host: "0.0.0.0"  # Host address for running the FastAPI application (0.0.0.0 allows external access)
+  port: 8000  # Port number on which the FastAPI server runs
