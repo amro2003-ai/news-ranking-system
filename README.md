@@ -24,38 +24,33 @@ This project analyzes financial news with the aim of improving the decision-maki
 
 
 ## Project Structure
-'''
-assets/
-    ui.png                     # UI image file
-config/
-    config.yaml                # Configuration file
-data/
-    news.csv                   # Dataset containing news data
-model/
-    label_encoder.pkl          # Label encoder for sentiment classification
-    sentiment_model.h5         # Trained sentiment analysis model
-    tokenizer.pkl              # Tokenizer for text preprocessing
-notebook/
-    news-sentiment-analysis.ipynb  # Jupyter notebook for analysis
-src/
-    api/
-        template/
-            interface.html     # HTML template for the UI
-        api.py                 # Backend API logic
-        __init__.py            # Initialization for the api module
-    model/
-        sentimentModel.py      # Model logic for sentiment analysis
-        __init__.py            # Initialization for the model module
-    config/
-        configLoader.py        # Config loader for reading configuration
-        __init__.py            # Initialization for the config module
-    rankingSystem/
-        rankingSystemPipeline.py # Pipeline for ranking news
-        __init__.py            # Initialization for the ranking system module
-main.py                       # Main application file
-requirements.txt              # List of required dependencies
 
-'''
-
-
-
+├── assets/                 
+│   └── ui.png                     # UI image file
+├── config/
+│   └── config.yaml                # Configuration file
+├── data/
+│   └── news.csv                   # Dataset containing news data
+├── model/
+│   ├── label_encoder.pkl          # Label encoder for sentiment classification
+│   ├── sentiment_model.h5         # Trained sentiment analysis model
+│   └── tokenizer.pkl              # Tokenizer for text preprocessing
+├── notebook/
+│   └── news-sentiment-analysis.ipynb  # Jupyter notebook for analysis
+├── src/
+│   ├── api/
+│   │   ├── template/
+│   │   │   └── interface.html     # HTML template for the UI
+│   │   ├── api.py                 # Backend API logic
+│   │   └── __init__.py            # Initialization for the api module
+│   ├── model/
+│   │   ├── sentimentModel.py      # Model logic for sentiment analysis
+│   │   └── __init__.py            # Initialization for the model module
+│   ├── config/
+│   │   ├── configLoader.py        # Config loader for reading configuration
+│   │   └── __init__.py            # Initialization for the config module
+│   └── rankingSystem/
+│       ├── rankingSystemPipeline.py # Pipeline for ranking news
+│       └── __init__.py            # Initialization for the ranking system module
+├── main.py                       # Main application file
+└── requirements.txt              # List of required dependencies
