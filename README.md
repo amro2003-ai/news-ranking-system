@@ -26,33 +26,33 @@ This project analyzes financial news with the aim of improving the decision-maki
 ## Project Structure
 
 assets/
-    ui.png
+    ui.png                     # UI image file
 config/
-    config.yaml
+    config.yaml                # Configuration file
 data/
-    news.csv
+    news.csv                   # Dataset containing news data
 model/
-    label_encoder.pkl
-    sentiment_model.h5
-    tokenizer.pkl
+    label_encoder.pkl          # Label encoder for sentiment classification
+    sentiment_model.h5         # Trained sentiment analysis model
+    tokenizer.pkl              # Tokenizer for text preprocessing
 notebook/
-    news-sentiment-analysis.ipynb
+    news-sentiment-analysis.ipynb  # Jupyter notebook for analysis
 src/
     api/
         template/
-            interface.html
-        api.py
-        __init__.py
+            interface.html     # HTML template for the UI
+        api.py                 # Backend API logic
+        __init__.py            # Initialization for the api module
     model/
-        sentimentModel.py
-        __init__.py
+        sentimentModel.py      # Model logic for sentiment analysis
+        __init__.py            # Initialization for the model module
     config/
-        configLoader.py
-        __init__.py
+        configLoader.py        # Config loader for reading configuration
+        __init__.py            # Initialization for the config module
     rankingSystem/
-        rankingSystemPipeline.py
-        __init__.py
-main.py
-requirements.txt
+        rankingSystemPipeline.py # Pipeline for ranking news
+        __init__.py            # Initialization for the ranking system module
+main.py                       # Main application file
+requirements.txt              # List of required dependencies
 
 
