@@ -22,6 +22,9 @@ This project analyzes financial news with the aim of improving the decision-maki
 2. Open the UI in a browser using:  
    [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
+
+## Project Structure
+
 assets/
     ui.png
 config/
