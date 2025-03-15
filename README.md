@@ -55,3 +55,5 @@ This project analyzes financial news with the aim of improving the decision-maki
 ├── main.py                       # Main application file
 └── requirements.txt              # List of required dependencies
 ```
+## UI
+![UI](assets/ui.png)
